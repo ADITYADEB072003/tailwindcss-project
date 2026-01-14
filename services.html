@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Services - Grocery Store</title>
+  </head>
+
+  <body>
+    <div class="min-h-screen bg-[url('images/image.png')] bg-cover bg-center px-10 py-6">
+      
+      <!-- Navbar -->
+      <nav class="flex items-center justify-between">
+        <img src="images/logo.png" class="w-40 cursor-pointer" alt="Logo" />
+
+        <ul class="flex gap-8 text-white font-semibold">
+          <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+          <li><a href="about.html" class="hover:text-yellow-300">About</a></li>
+          <li><a href="services.html" class="text-yellow-300">Services</a></li>
+          <li><a href="contact.html" class="hover:text-yellow-300">Contact</a></li>
+        </ul>
+
+        <img src="images/cart.png" class="w-8 cursor-pointer" alt="Cart" />
+      </nav>
+
+      <!-- Services Content -->
+      <div class="mt-24 text-white">
+        <h1 class="text-5xl font-bold">Our Services</h1>
+        <p class="mt-4 text-lg text-gray-200 max-w-2xl">
+          We provide high-quality groceries with reliable delivery and customer support.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 max-w-5xl">
+          
+          <div class="bg-white/10 p-6 rounded-2xl backdrop-blur-md">
+            <h2 class="text-2xl font-semibold">Home Delivery</h2>
+            <p class="mt-2 text-gray-200">
+              Get groceries delivered fast to your doorstep.
+            </p>
+          </div>
+
+          <div class="bg-white/10 p-6 rounded-2xl backdrop-blur-md">
+            <h2 class="text-2xl font-semibold">Fresh Guarantee</h2>
+            <p class="mt-2 text-gray-200">
+              We ensure freshness and quality for every order.
+            </p>
+          </div>
+
+          <div class="bg-white/10 p-6 rounded-2xl backdrop-blur-md">
+            <h2 class="text-2xl font-semibold">24/7 Support</h2>
+            <p class="mt-2 text-gray-200">
+              Our team is always available to help customers.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="mt-12">
+          <a
+            href="shop.html"
+            class="inline-block bg-yellow-400 text-white px-6 py-3 rounded-full font-semibold 
+            hover:bg-transparent hover:border hover:border-white duration-300"
+          >
+            Explore Shop
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>About - Grocery Store</title>
+  </head>
+
+  <body>
+    <div class="min-h-screen bg-[url('images/image.png')] bg-cover bg-center px-10 py-6">
+      
+      <!-- Navbar -->
+      <nav class="flex items-center justify-between">
+        <img src="images/logo.png" class="w-40 cursor-pointer" alt="Logo" />
+
+        <ul class="flex gap-8 text-white font-semibold">
+          <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+          <li><a href="about.html" class="text-yellow-300">About</a></li>
+          <li><a href="services.html" class="hover:text-yellow-300">Services</a></li>
+          <li><a href="contact.html" class="hover:text-yellow-300">Contact</a></li>
+        </ul>
+
+        <img src="images/cart.png" class="w-8 cursor-pointer" alt="Cart" />
+      </nav>
+
+      <!-- About Content -->
+      <div class="mt-24 max-w-3xl text-white">
+        <h1 class="text-5xl font-bold">About Our Grocery Store</h1>
+
+        <p class="mt-6 text-lg text-gray-200 leading-relaxed">
+          Welcome to <b>GroceryMart</b> — your trusted online grocery store.
+          We deliver fresh vegetables, fruits, dairy products, snacks, and
+          everyday essentials right to your doorstep.
+        </p>
+
+        <p class="mt-4 text-lg text-gray-200 leading-relaxed">
+          Our mission is to provide high-quality groceries at affordable prices
+          with fast and reliable delivery. We focus on customer satisfaction,
+          freshness, and convenience.
+        </p>
+
+        <!-- Features -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+          <div class="bg-white/10 p-6 rounded-2xl backdrop-blur-md">
+            <h2 class="text-xl font-semibold">Fresh Products</h2>
+            <p class="text-gray-200 mt-2">
+              Directly sourced and delivered fresh every day.
+            </p>
+          </div>
+
+          <div class="bg-white/10 p-6 rounded-2xl backdrop-blur-md">
+            <h2 class="text-xl font-semibold">Fast Delivery</h2>
+            <p class="text-gray-200 mt-2">
+              Same-day and next-day delivery options.
+            </p>
+          </div>
+
+          <div class="bg-white/10 p-6 rounded-2xl backdrop-blur-md">
+            <h2 class="text-xl font-semibold">Best Prices</h2>
+            <p class="text-gray-200 mt-2">
+              Great deals, discounts, and offers every week.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-12">
+          <a
+            href="index.html"
+            class="inline-block bg-yellow-400 text-white px-6 py-3 rounded-full font-semibold 
+            hover:bg-transparent hover:border hover:border-white duration-300"
+          >
+            Back to Home
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
